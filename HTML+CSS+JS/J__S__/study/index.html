@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #para{
+            background-color: palevioletred;
+            border: 2px solid maroon;
+            text-align: center;
+            color:rgba(68, 5, 68, 0.8);
+            padding-top:50px;
+            width: 50%;
+            height:100px;
+            margin-left: 25%;
+            margin-top: 5%;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body id="bd">
+    <p id="para"></p>
+    <p id="para">This is displayed using JS</p>
+    <p id="para">This is displayed using JS</p>
+    <p id="para">This is displayed using JS</p>
+    <p id="para">This is displayed using JS</p>
+    <p id="para">This is displayed using JS</p>
+    <p id="para">This is displayed using JS</p>
+    <script>
+        document.getElementById("para").innerHTML="This is displayed using JS";
+        document.getElementById("bd").style.backgroundColor="aqua";
+    </script>
+</body>
+</html>

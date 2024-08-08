@@ -1,0 +1,88 @@
+<!Doctype html>
+<html>
+<body>
+
+
+  <table border="1">
+    <tr>
+      <td colspan="2">Merged Columns</td>
+    </tr>
+    <tr>
+      <td>Column 1</td>
+      <td>Column 2</td>
+    </tr>
+  </table>
+  
+<table border="1">
+  <tr>
+    <td>Row 1, Column 1</td>
+    <td rowspan="2">Merged Rows</td>
+  </tr>
+  <tr>
+    <td>Row 2, Column 1</td>
+  </tr>
+</table>
+
+<table>
+  <caption>Student Details</caption>
+     <!-- Rest of the table here -->
+</table>
+
+<table border="3">
+  <!-- Caption -->
+  <caption>Employee Information</caption>
+
+  <!-- Table Header -->
+  <thead>
+      <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+      </tr>
+  </thead>
+
+  <!-- Table Body -->
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Alice</td>
+          <td>Developer</td>
+          <td>$80,000</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Bob</td>
+          <td>Designer</td>
+          <td>$70,000</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Carol</td>
+          <td>Manager</td>
+          <td>$90,000</td>
+      </tr>
+  </tbody>
+
+  <!-- Table Footer -->
+  <tfoot>
+      <tr>
+          <td colspan="3">Total Employees</td>
+          <td>3</td>
+      </tr>
+  </tfoot>
+</table>
+
+
+<form action="/submit">
+  <textarea name="comment" rows="4" cols="50">Enter your comment here...</textarea>
+  <select name="fruits">
+    <option value="apple">Apple</option>
+    <option value="banana">Banana</option>
+    <option value="cherry">Cherry</option>
+  </select>
+  <input type="submit" value="Submit">
+</form>
+  
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Basic Form
+        </title>
+        <style>
+            form{
+                background-color: hotpink;
+                text-align: center;
+                width:30%;
+                margin:auto;
+                padding:40px;
+                border-radius: 20px;
+                border: 5px solid maroon;
+                color: blue;
+            }
+            .in
+            {
+                background-color: lightpink;
+                border-radius: 3px;
+                border: 2px solid red;
+            }
+        </style>
+
+    </head>
+    <body>
+        <form action="db.php">
+            <div>
+                Roll No : <input class="in" type="number" name="myrno">
+            </div>
+            <br>
+            <div>
+                Name : <input class="in" type="text" name="myname">
+            </div>
+            <br>
+            <div>
+                Marks : <input class="in" type="number" name="mymarks">
+            </div>
+            <br>
+            <div>
+                DOB : <input class="in" type="date" name="mydob">
+            </div>
+            <br>
+            <div>
+                Gender : <br/><input class="in" type="radio" name="mygen" value="m">Male
+                <br/><input class="in" type="radio" name="mygen" value="f">Female
+                <br/><input class="in" type="radio" name="mygen" value="o">Other
+            </div>
+            <br>
+            <div>
+                Depatment :
+                <select class="in" name="dept" placeholder="department">
+                    <option value="comp">Computer</option>
+                    <option value="mech">Mechanical</option>
+                    <option value="elect">Electrical</option>
+                    <option value="struct">Structural</option>
+                    <option value="it">IT</option>
+                    <option value="ece">ECE</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                Class:<br/>
+                <input class="in" type="radio" name="myclass">FY<br/>
+                <input class="in" type="radio" name="myclass">SY<br/>
+                <input class="in" type="radio" name="myclass">TY<br/>
+                <input class="in" type="radio" name="myclass">Final<br/>
+            </div>
+            <br>
+            <div>
+                <input class="in" type="submit" value="SUBMIT">
+            </div>
+            <br>
+            <div>
+                <input class="in" type="reset" value="RESET">
+            </div>
+        </form>
+        
+    </body>
+</html>

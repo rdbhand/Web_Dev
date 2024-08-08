@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>bat_ball_stump</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="text-align: center;">
+  <header>
+    <h1>
+      <b>Bat, Ball, Stump Game</b>
+    </h1>
+  </header>
+  <main>
+    <button id="bat_bt" class="bt_class" onclick="show_result('Bat')"><img src="images/bat.jpg"></button>
+    <button id="ball_bt" class="bt_class" onclick="show_result('Ball')"><img src="images/ball_img.webp"></button>
+    <button id="stump_bt" class="bt_class" onclick="show_result('Stump')"><img src="images/stump.jpg"></button>
+  </main>
+  <footer>
+    <h2 id="display"></h2>
+    <br>
+    <hr>
+    <br>
+    <table>
+      <tr>
+        <th>WON</th>
+        <th>TIE</th>
+        <th>LOSE</th>
+      </tr>
+      <tr>
+        <th id="won_display">00</th>
+        <th id="tie_display">00</th>
+        <th id="lost_display">00</th>
+      </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <button id="clear_bt" onclick="clear_score()">Clear</button><br>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

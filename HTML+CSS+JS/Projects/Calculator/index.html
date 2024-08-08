@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display">
+        <div id="bt_box">
+            <button id="bt1" class="bt_class" onclick="change_display(1)">1</button>
+            <button id="bt2" class="bt_class" onclick="change_display(2)">2</button>
+            <button id="bt3" class="bt_class" onclick="change_display(3)">3</button>
+            
+            <button id="bt4" class="bt_class" onclick="change_display(4)">4</button>
+            <button id="bt5" class="bt_class" onclick="change_display(5)">5</button>
+            <button id="bt6" class="bt_class" onclick="change_display(6)">6</button>
+            
+            <button id="bt7" class="bt_class" onclick="change_display(7)">7</button>
+            <button id="bt8" class="bt_class" onclick="change_display(8)">8</button>
+            <button id="bt9" class="bt_class" onclick="change_display(9)">9</button>
+            <button id="bt_add" class="bt_class" onclick="change_display('+')">+</button>
+            <button id="bt_equal" class="bt_class" onclick="calculate()">=</button>
+            <button id="bt_sub" class="bt_class" onclick="change_display('-')">-</button>
+            <button id="bt_mul" class="bt_class" onclick="change_display('*')">*</button>
+            <button id="bt0" class="bt_class" onclick="change_display(0)">0</button>
+            <button id="bt_div" class="bt_class" onclick="change_display('/')">/</button>
+            
+            
+        </div>
+        <button id="bt_back" class="bt_clear" onclick="back()">
+            <small>clear</small>
+        </button>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
